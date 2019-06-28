@@ -7,10 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Here we goooo</h1>
-
-    <p>
-        <a href="/contact"> Contact Us to learn more.</a>
-    </p>
+    <h1>Contact form</h1>
 </body>
 </html>
