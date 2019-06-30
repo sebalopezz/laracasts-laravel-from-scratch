@@ -11,9 +11,9 @@
     <h1> Create a new project </h1>
 
     <form action="/projects" method="POST">
-        {{ csrf_field() }}
-        <input type="text" name="title" placeholder="Project title"><br>
-        <textarea name="description" name="description" cols="25" rows="5"></textarea><br>
+        @csrf
+    <input type="text" name="title" placeholder="Project title" value="{{ old('title') }}"><br>
+        <textarea name="description" name="description" cols="25" rows="5">{{ old('description') }} </textarea ><br>
         <button type="submit"> Create project </button>
     </form>
 
